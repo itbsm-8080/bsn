@@ -1,0 +1,2 @@
+ delete from tfp_dtl  where  fpd_fp_nomor =''
+insert into tfp_dtl (fpd_fp_nomor,fpd_brg_kode,fpd_idbatch,fpd_brg_satuan,fpd_qty,fpd_discpr,fpd_harga,fpd_nourut,fpd_expired,fpd_cn,fpd_gdg_kode,fpd_hrg_min) values ('88-FP.2408.0001',1000,'asda22321','PCS',1,0,1000,1,'1899/12/30',0,'WH-00',0);
