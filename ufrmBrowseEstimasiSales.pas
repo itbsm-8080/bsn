@@ -218,8 +218,8 @@ begin
 end;
 // masukkan realisasi sales
 
-           ssql:= 'SELECT salesman,customer,SUM(total-biaya_promosi-kontrak-retur) realisasisales '
-                  + ' FROM penjualan'
+           ssql:= 'SELECT salesman,customer,SUM(dpp-biaya_promosi-Fee_Marketing-kontrak-retur) realisasisales '
+                  + ' FROM penjualan2'
                   + ' WHERE MONTH(tanggal)='+inttostr(cbbBulan.ItemIndex+1)+' AND YEAR(tanggal)='+edttahun.text
                   + ' group by salesman,customer ';
 
